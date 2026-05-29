@@ -1,0 +1,424 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : accel_top
+Version: V-2023.12-SP4
+Date   : Fri May 29 15:41:23 2026
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   u_regs/n2280                 0.35           0.55          -0.20  (VIOLATED)
+       PIN :   u_regs/U131/A6
+                                0.35           0.55          -0.20  (VIOLATED)
+       PIN :   u_regs/U452/A6
+                                0.35           0.55          -0.20  (VIOLATED)
+       PIN :   u_regs/U2603/A4
+                                0.35           0.55          -0.20  (VIOLATED)
+   u_regs/n2376                 0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[50][0]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[55]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[53]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[48]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[61]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[60]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[59]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[58]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[31]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[28]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[25]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[38]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[33]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[45]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[42]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[41]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[55]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[49]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[62]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[60]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[50]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][19]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][18]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][10]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][2]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][27]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][17]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][23]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][25]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][11]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][9]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][0]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][27]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][24]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][23]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[59][5]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[59][4]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[59][3]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[59][2]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[59][1]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[59][0]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][31]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][30]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][29]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][28]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][27]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][26]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+   u_regs/n2377                 0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][15]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[54]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[51]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[50]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[14]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[13]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[12]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[11]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[10]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[9]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[8]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[23]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[22]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[21]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[19]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[18]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[17]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[62]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[57]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[30]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[27]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[24]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[37]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[35]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[34]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[47]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[43]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[53]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[52]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[63]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][21]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][12]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[50][10]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[50][2]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][29]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][13]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][21]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][24]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][12]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][7]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][2]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][30]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][28]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][26]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][21]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+   u_regs/n2378                 0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[51]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[0]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[52]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[49]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[15]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[16]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[63]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[29]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[26]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[39]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[36]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[32]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[46]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[44]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[40]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[54]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[48]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[59]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[58]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[57]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[56]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[7]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[6]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[5]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[4]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[2]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[3]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[61]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_wgt_data_reg[1]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][19]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][11]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[50][9]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[50][1]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][28]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][14]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][16]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][18]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][19]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][22]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][10]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][8]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[60][1]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][31]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][29]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][25]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][22]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[61][19]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+   u_regs/n2380                 0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][0]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[53][15]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[31]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[36]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[42]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[10]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[32]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[29]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[6]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[3]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[40]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[41]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[13]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_data_reg[8]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/sc_cnt_reg[0]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][17]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][16]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[49][8]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[51][30]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[48][25]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][2]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][31]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][28]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][25]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][22]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_start_reg/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][16]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][18]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[55][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/arr_act_valid_reg/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[53][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[53][18]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[53][14]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[53][12]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][28]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][27]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][26]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][25]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][24]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][23]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][22]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][21]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][20]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][19]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][18]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][17]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+       PIN :   u_regs/c_buf_reg[54][16]/RSTB
+                                0.35           0.36          -0.01  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      5                  -0.24  
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   accel_top                    0.00       2623224320.00  -2623224320.00
+                                                                    (VIOLATED)
+
+
+1
